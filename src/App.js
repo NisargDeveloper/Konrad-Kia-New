@@ -9,8 +9,6 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          {/* Define the routes and the corresponding components */}
-
           <Route path="/BuildPage" element={<BuildPage />} />
           <Route path="/" element={<Main />} />
         </Routes>
