@@ -6,13 +6,11 @@ import BuildPage from "./BuildPage";
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Header />
-        <Routes>
-          <Route path="/BuildPage" element={<BuildPage />} />
-          <Route path="/" element={<Main />} />
-        </Routes>
-      </div>
+      <Header />
+      <Routes>
+        <Route path="/BuildPage" element={<BuildPage />} />
+        <Route path="/" element={<Main />} />
+      </Routes>
     </Router>
   );
 }
